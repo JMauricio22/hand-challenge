@@ -1,0 +1,41 @@
+{
+  "name": "hand-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "dev": "nodemon index.js"
+  },
+  "eslintConfig": {
+    "env": {
+      "jest": true
+    },
+    "globals": {
+      "jest": true
+    },
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ],
+    "rules": {
+      "no-unused-vars": 2,
+      "no-console": 2,
+      "semi": 0,
+      "comma-dangle": 0,
+      "indent": [
+        "error",
+        2
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.2",
+    "nodemon": "^2.0.15",
+    "standard": "^17.0.0",
+    "eslint": "^8.14.0"
+  }
+}
